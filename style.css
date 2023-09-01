@@ -1,0 +1,45 @@
+* {
+    outline: 2px red solid;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: blanchedalmond;
+    justify-content:space-between; 
+}
+
+figure {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+img {
+    background-image: white;
+}
+
+section {
+    display: flex;
+    background-color: gold;
+    justify-content: flex-end;
+}
+
+body1 {
+    display: flex;
+    background-color: #cdffd5;
+    justify-content: center;
+}
+
+body2 {
+    display: flex;
+    background-color: hwb(244 5% 6%);
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    background-color: blueviolet;justify-content: space-between;
+}
